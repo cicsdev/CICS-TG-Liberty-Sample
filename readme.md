@@ -1,8 +1,9 @@
-## CICS Transaction Gateway Liberty JCA sample code
+## CICS Transaction Gateway Liberty JCA ECI sample code
 
 ### Pre-reqs
 * CICS Transaction Gateway v8.1 or later
-* WebSphere Liberty profile 8.5.5.3 or later with the JCA feature installed
+* WebSphere Liberty 8.5.5 FP3 or later with the jca-1.6 feature installed or
+* CICS TS V5.2 with Liberty and the cicsts:jcaLocalEci-1.0 feature
 * Eclipse with WebSphere Development Tools installed
 
 ### Configuration
@@ -12,22 +13,9 @@ The supplied `server.xml` file shows the required configuration paramters for ad
 The sample servlet code can be added to a Web Project. To correct any compilation errors the cicsjee.jar should be added to the build path.
 
 ### Reference
-More information about working with CICS TG resource adapters in WebSphere Liberty Profile can be found in this [blog post](https://developer.ibm.com/cics/2014/05/06/using-jca-with-the-cics-tg-in-websphere-liberty-profile/).
+More information about working with CICS TG resource adapters in WebSphere Liberty can be found in this [blog post] (https://developer.ibm.com/cics/2014/05/06/using-jca-with-the-cics-tg-in-websphere-liberty-profile/).
+Information on porting JCA ECI applications into CICS using the JCA local ECI resource adapter in Liberty can be found in this CICS developer center [blog post] (https://developer.ibm.com/cics/2015/07/23/porting-jca-eci-applications-into-a-cics-liberty-jvm-server/)
 
-### Notice
-&copy; Copyright IBM Corporation 2014
 
 ### License
-```
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+Please read the LICENSE file
