@@ -3,7 +3,7 @@
 ### Pre-reqs
 * CICS Transaction Gateway v8.1 or later
 * WebSphere Liberty 8.5.5 FP3 or later with the jca-1.6 feature installed or
-* CICS TS V5.2 with Liberty and the cicsts:jcaLocalEci-1.0 feature
+* CICS TS V5.3 with Liberty and the cicsts:jcaLocalEci-1.0 feature
 * Eclipse with WebSphere Development Tools installed
 
 ### Configuration
