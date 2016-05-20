@@ -10,12 +10,11 @@
 The supplied `server.xml` file shows the required configuration paramters for adding the ECI resource adapter, creating a connection factory and adding the classes supplied with the resource adapter to the classpath of the application. This file can be used as-is or the configuration options can be copied into an existing server configuration.
 
 ### Compiling the sample
-The sample servlet code can be added to a Web Project. To correct any compilation errors the cicsjee.jar should be added to the build path.
+The sample servlet code can be added to a Web Project. To correct any compilation errors the cicsjee.jar should be added to the build path or the CICS Liberty JVM server libraries added to the build path
+
 
 ### Reference
 More information about working with CICS TG resource adapters in WebSphere Liberty can be found in this [blog post] (https://developer.ibm.com/cics/2014/05/06/using-jca-with-the-cics-tg-in-websphere-liberty-profile/).
 Information on porting JCA ECI applications into CICS using the JCA local ECI resource adapter in Liberty can be found in this CICS developer center [blog post] (https://developer.ibm.com/cics/2015/07/23/porting-jca-eci-applications-into-a-cics-liberty-jvm-server/)
 
 
-### License
-Please read the LICENSE file
