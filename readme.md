@@ -7,10 +7,14 @@
 * Eclipse with WebSphere Development Tools installed
 
 ### Configuration
-The supplied `server.xml` file shows the required configuration paramters for adding the ECI resource adapter, creating a connection factory and adding the classes supplied with the resource adapter to the classpath of the application. This file can be used as-is or the configuration options can be copied into an existing server configuration.
+The supplied `server.xml` file shows the required configuration paramters for adding the ECI resource adapter, 
+creating a connection factory and adding the classes supplied with the resource adapter to the classpath of the application. 
+This file can be used as-is or the configuration options can be copied into an existing server configuration.
 
 ### Compiling the sample
-The sample servlet code can be added to a Web Project. To correct any compilation errors either the cicsjee.jar should be added to the build path or the CICS Liberty JVM server libraries added to the build path if using the CICS TG, or add the Liberty JVM server libraries if using the CICS Explorer SDK for Java.
+The sample servlet code can be added to a Web Project. To correct any compilation errors either the cicsjee.jar 
+should be added to the build path if using the CICS TG, or the CICS Liberty JVM server libraries added using the Add Library
+menu if using the CICS Explorer SDK for Servlet and JSP support.
 
 
 ### Reference
