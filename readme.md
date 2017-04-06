@@ -18,7 +18,7 @@ menu if using the CICS Explorer SDK for Servlet and JSP support.
 
 
 ### Reference
-More information about working with CICS TG resource adapters in WebSphere Liberty can be found in this [tutorial] (https://developer.ibm.com/cics/2014/05/06/using-jca-with-the-cics-tg-in-websphere-liberty-profile/).
-Information on porting JCA ECI applications into CICS using the JCA local ECI resource adapter in Liberty can be found in this CICS developer center tutorial](https://developer.ibm.com/cics/2015/07/23/porting-jca-eci-applications-into-a-cics-liberty-jvm-server/)
+More information about working with CICS TG resource adapters in WebSphere Liberty can be found in this [tutorial](https://developer.ibm.com/cics/2014/05/06/using-jca-with-the-cics-tg-in-websphere-liberty-profile/).
+Information on porting JCA ECI applications into CICS using the JCA local ECI resource adapter in Liberty can be found in this CICS developer center [tutorial](https://developer.ibm.com/cics/2015/07/23/porting-jca-eci-applications-into-a-cics-liberty-jvm-server/)
 
 
